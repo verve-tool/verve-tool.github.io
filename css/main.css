@@ -2,7 +2,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /* Basic Styling ============================================== */
-body { font-family: "PT Sans", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; font-weight: 300; color: #454545; background-color: #FFF !important; -webkit-text-size-adjust: 100%; }
+body { font-family: "Courier New"; font-size: 16px; line-height: 1.5; font-weight: 300; color: #454545; background-color: #FFF !important; -webkit-text-size-adjust: 100%; }
 
 /* Set Margin Bottom for Vertical Rhythm ============================================== */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure { margin-bottom: 15px; }
@@ -43,7 +43,7 @@ blockquote { color: #BBB; border-left: 4px solid #00B2EE; padding-left: 15px; fo
 blockquote > :last-child { margin-bottom: 0; }
 
 /* Code Blocks ============================================== */
-pre, code { font-size: 13px; border: 1px solid #cfcfcf; font-family: Menlo, Monaco, "Andale Mono", serif; }
+pre, code { font-size: 13px; border: 1px solid #cfcfcf; font-family: "Courier New"; }
 
 code { padding: 1px 3px; background-color: #FFF; border-radius: 5px; }
 
@@ -82,12 +82,12 @@ table { border-collapse: collapse; border-spacing: 0; }
   .site-nav .trigger { clear: both; display: none; }
   .site-nav:hover .trigger { display: block; padding-bottom: 5px; }
   .site-nav .page-link { display: block; padding: 5px 10px; } }
-.site-nav .page-link { font-family: 'Open Sans'; font-weight: 700 !important; line-height: 1.5; letter-spacing: 0.05em; }
+.site-nav .page-link { font-family: "Courier New"; font-weight: 700 !important; line-height: 1.5; letter-spacing: 0.05em; }
 .site-nav .page-link:not(:first-child) { margin-left: 20px; }
 .site-nav .page-link:hover { opacity: 0.8; }
 
 /* Site Footer ============================================== */
-.footer { padding-bottom: 3em; margin: auto; font-size: 12px; font-family: Open Sans; color: #959595; }
+.footer { padding-bottom: 3em; margin: auto; font-size: 12px; font-family: "Courier New"; color: #959595; }
 
 .footer.center { text-align: center; }
 
@@ -104,7 +104,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .post-list { margin-left: 0; list-style: none; }
 .post-list > li { display: block; padding: 0.1em 1.5em; }
 
-.post-link { font-family: 'Open Sans'; font-weight: 300; font-size: 1.5em; letter-spacing: -1px; color: #454545; display: block; width: 100%; }
+.post-link { font-family: "Courier New"; font-weight: 300; font-size: 1.5em; letter-spacing: -1px; color: #454545; display: block; width: 100%; }
 @media screen and (max-width: 700px) { .post-link { font-size: 1.33em; } }
 
 .post-meta { font-size: 14.32px; color: #cfcfcf; text-transform: uppercase; display: inline-block; }
